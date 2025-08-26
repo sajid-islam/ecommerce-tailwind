@@ -35,26 +35,30 @@
       <header>
         <!-- Navbar -->
         <nav class="flex justify-between items-center p-5">
-          <!-- 1. LOGO -->
+          <!-- Menu Icon hidden on extra large device -->
+          <menu class="xl:hidden">
+            <i class="fa-solid fa-bars"></i>
+          </menu>
+          <!--  LOGO -->
           <h1 class="text-3xl font-bold">Ochaka.</h1>
-          <!-- 2. nav links -->
-          <ul class="flex gap-7 items-center font-semibold">
+          <!-- nav links -->
+          <ul class="hidden xl:flex gap-7 items-center font-semibold">
             <li class="hover:text-secondary hover:cursor-pointer">HOME</li>
             <li class="hover:text-secondary hover:cursor-pointer">SHOP</li>
             <li class="hover:text-secondary hover:cursor-pointer">PRODUCT</li>
             <li class="hover:text-secondary hover:cursor-pointer">PAGE</li>
             <li class="hover:text-secondary hover:cursor-pointer">BLOG</li>
           </ul>
-          <!-- 3. menus -->
-          <div class="flex items-center gap-5">
+          <!-- menus -->
+          <menu class="flex items-center gap-5">
             <i
-              class="fa-regular fa-user text-xl font-thin hover:text-secondary hover:cursor-pointer"
+              class="fa-regular fa-user hidden xl:block text-xl font-thin hover:text-secondary hover:cursor-pointer"
             ></i>
             <i
-              class="fa-solid fa-magnifying-glass text-xl hover:text-secondary hover:cursor-pointer"
+              class="fa-solid fa-magnifying-glass hidden lg:block text-xl hover:text-secondary hover:cursor-pointer"
             ></i>
             <i
-              class="fa-regular fa-heart text-xl hover:text-secondary hover:cursor-pointer"
+              class="fa-regular fa-heart hidden md:block text-xl hover:text-secondary hover:cursor-pointer"
             ></i>
             <p class="relative">
               <i
@@ -66,7 +70,7 @@
                 24
               </span>
             </p>
-          </div>
+          </menu>
         </nav>
       </header>
     </main>
