@@ -31,48 +31,72 @@
     <link rel="stylesheet" href="/style/globals.css" />
   </head>
   <body>
-    <main>
-      <header>
-        <!-- Navbar -->
-        <nav class="flex justify-between items-center p-5">
-          <!-- Menu Icon hidden on extra large device -->
-          <menu class="xl:hidden">
-            <i class="fa-solid fa-bars"></i>
-          </menu>
-          <!--  LOGO -->
-          <h1 class="text-3xl font-bold">Ochaka.</h1>
-          <!-- nav links -->
-          <ul class="hidden xl:flex gap-7 items-center font-semibold">
-            <li class="hover:text-secondary hover:cursor-pointer">HOME</li>
-            <li class="hover:text-secondary hover:cursor-pointer">SHOP</li>
-            <li class="hover:text-secondary hover:cursor-pointer">PRODUCT</li>
-            <li class="hover:text-secondary hover:cursor-pointer">PAGE</li>
-            <li class="hover:text-secondary hover:cursor-pointer">BLOG</li>
-          </ul>
-          <!-- menus -->
-          <menu class="flex items-center gap-5">
+    <header>
+      <!-- Navbar -->
+      <nav class="flex justify-between items-center px-5 h-16">
+        <!-- Menu Icon hidden on extra large device -->
+        <menu class="xl:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </menu>
+        <!--  LOGO -->
+        <h1 class="text-3xl font-bold">Ochaka.</h1>
+        <!-- nav links (hidden on small devices) -->
+        <ul class="hidden xl:flex gap-7 items-center font-semibold">
+          <li class="hover:text-secondary hover:cursor-pointer">HOME</li>
+          <li class="hover:text-secondary hover:cursor-pointer">SHOP</li>
+          <li class="hover:text-secondary hover:cursor-pointer">PRODUCT</li>
+          <li class="hover:text-secondary hover:cursor-pointer">PAGE</li>
+          <li class="hover:text-secondary hover:cursor-pointer">BLOG</li>
+        </ul>
+        <!-- menus -->
+        <menu class="flex items-center gap-5">
+          <i
+            class="fa-regular fa-user hidden xl:block text-xl font-thin hover:text-secondary hover:cursor-pointer"
+          ></i>
+          <i
+            class="fa-solid fa-magnifying-glass hidden lg:block text-xl hover:text-secondary hover:cursor-pointer"
+          ></i>
+          <i
+            class="fa-regular fa-heart hidden md:block text-xl hover:text-secondary hover:cursor-pointer"
+          ></i>
+          <p class="relative">
             <i
-              class="fa-regular fa-user hidden xl:block text-xl font-thin hover:text-secondary hover:cursor-pointer"
+              class="fa-solid fa-cart-shopping text-xl hover:text-secondary hover:cursor-pointer"
             ></i>
-            <i
-              class="fa-solid fa-magnifying-glass hidden lg:block text-xl hover:text-secondary hover:cursor-pointer"
-            ></i>
-            <i
-              class="fa-regular fa-heart hidden md:block text-xl hover:text-secondary hover:cursor-pointer"
-            ></i>
-            <p class="relative">
-              <i
-                class="fa-solid fa-cart-shopping text-xl hover:text-secondary hover:cursor-pointer"
-              ></i>
-              <span
-                class="absolute bg-secondary flex justify-center items-center rounded-full text-white w-5 h-5 text-[10px] -right-2 -top-1 font-medium"
-              >
-                24
-              </span>
-            </p>
-          </menu>
-        </nav>
-      </header>
-    </main>
+            <span
+              class="absolute bg-secondary flex justify-center items-center rounded-full text-white w-5 h-5 text-[10px] -right-2 -top-1 font-medium"
+            >
+              24
+            </span>
+          </p>
+        </menu>
+      </nav>
+
+      <!-- Banner Section -->
+      <section class="relative overflow-hidden">
+        <img
+          class="w-full h-[calc(100svh-64px)] object-cover object-center transform-gpu auto-zoom"
+          src="/images/banner-image.jpg"
+          alt="banner image"
+        />
+        <div
+          class="absolute inset-0 text-white px-10 flex flex-col justify-center gap-10"
+        >
+          <h2 class="text-6xl font-semibold">
+            ETRONIK
+            <br />
+            TRAVEL BACKPACK
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            sapiente.
+          </p>
+          <button class="w-fit text-black font-semibold bg-white px-8 py-4">
+            SHOP NOW
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+    </header>
   </body>
 </html>
