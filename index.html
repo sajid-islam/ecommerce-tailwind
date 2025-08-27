@@ -21,6 +21,7 @@
             colors: {
               primary: '#42514a',
               secondary: '#c8102e',
+              muted: '#737373',
             },
           },
         },
@@ -31,6 +32,7 @@
     <link rel="stylesheet" href="/style/globals.css" />
   </head>
   <body>
+    <!-- HEADER-->
     <header class="mb-10">
       <!-- Navbar -->
       <nav class="flex justify-between items-center px-5 h-16">
@@ -150,5 +152,170 @@
         </div>
       </section>
     </header>
+    <!-- MAIN -->
+    <main class="mb-10">
+      <!-- Best sellers section -->
+      <section>
+        <!-- Section Title -->
+        <div class="text-center space-y-3">
+          <h3 class="text-5xl font-semibold">Our Best sellers</h3>
+          <p class="text-muted">
+            Up to 50% off Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit
+          </p>
+        </div>
+        <!-- Product container -->
+        <div
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-10 max-w-[90rem] mx-auto"
+        >
+          <!-- Product 1 -->
+          <div class="relative">
+            <img
+              src="/images/products/product-1.jpg"
+              alt="best-sellers-product1"
+            />
+            <!-- tag -->
+            <p
+              class="absolute bg-black text-white px-4 py-1 text-sm font-semibold top-0"
+            >
+              <i class="fa-solid fa-bolt text-secondary"></i>
+              FLASH SELL
+            </p>
+
+            <!-- Product  1 description -->
+            <div class="mt-5 space-y-4">
+              <h4 class="text-2xl">
+                34L Classic Waxed Canvas & Full Grain Leather Travel Bag
+              </h4>
+              <p>
+                <del class="text-muted font-semibold">$99.99</del>
+                <span class="font-semibold">$69.99</span>
+              </p>
+              <div class="flex gap-2">
+                <div
+                  class="border border-black p-0.5 rounded-full hover:cursor-pointer"
+                >
+                  <p class="bg-[#8b674d] size-4 rounded-full" />
+                </div>
+                <div
+                  class="border-0 border-black p-0.5 rounded-full hover:cursor-pointer"
+                >
+                  <p class="bg-[#685bc7] size-4 rounded-full" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="relative">
+            <img
+              src="/images/products/product-2.jpg"
+              alt="best-sellers-product1"
+            />
+            <!-- tag -->
+            <p
+              class="absolute bg-[#ee7f00] text-white px-4 py-1 text-sm font-semibold top-0"
+            >
+              HOT
+            </p>
+
+            <!-- Product  2 description -->
+            <div class="mt-5 space-y-4">
+              <h4 class="text-2xl">
+                34L Classic Waxed Canvas & Full Grain Leather Travel Bag
+              </h4>
+              <p>
+                <del class="text-muted font-semibold">$99.99</del>
+                <span class="font-semibold">$69.99</span>
+              </p>
+              <div class="flex gap-2">
+                <div
+                  class="border border-black p-0.5 rounded-full hover:cursor-pointer"
+                >
+                  <p class="bg-black size-4 rounded-full" />
+                </div>
+                <div
+                  class="border-0 border-black p-0.5 rounded-full hover:cursor-pointer"
+                >
+                  <p class="bg-[#f56eb7] size-4 rounded-full" />
+                </div>
+                <div
+                  class="border-0 border-black p-0.5 rounded-full hover:cursor-pointer"
+                >
+                  <p class="bg-[#f3a729] size-4 rounded-full" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="relative">
+            <img
+              src="/images/products/product-3.jpg"
+              alt="best-sellers-product1"
+            />
+            <!-- tag -->
+            <p
+              class="absolute bg-[#6265fe] text-white px-4 py-1 text-sm font-semibold top-0"
+            >
+              Trending
+            </p>
+
+            <!-- Product  3 description -->
+            <div class="mt-5 space-y-4">
+              <h4 class="text-2xl">
+                34L Classic Waxed Canvas & Full Grain Leather Travel Bag
+              </h4>
+              <p>
+                <del class="text-muted font-semibold">$99.99</del>
+                <span class="font-semibold">$69.99</span>
+              </p>
+              <div class="flex gap-2">
+                <div
+                  class="border border-black p-0.5 rounded-full hover:cursor-pointer"
+                >
+                  <p class="bg-[#cfd0ca] size-4 rounded-full" />
+                </div>
+                <div
+                  class="border-0 border-black p-0.5 rounded-full hover:cursor-pointer"
+                >
+                  <p class="bg-black size-4 rounded-full" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div>
+            <img
+              src="/images/products/product-4.jpg"
+              alt="best-sellers-product1"
+            />
+            <!-- Product  4 description -->
+            <div class="mt-5 space-y-4">
+              <h4 class="text-2xl">
+                34L Classic Waxed Canvas & Full Grain Leather Travel Bag
+              </h4>
+              <p>
+                <del class="text-muted font-semibold">$99.99</del>
+                <span class="font-semibold">$69.99</span>
+              </p>
+              <div class="flex gap-2">
+                <div
+                  class="border border-black p-0.5 rounded-full hover:cursor-pointer"
+                >
+                  <p class="bg-[#8b674d] size-4 rounded-full" />
+                </div>
+                <div
+                  class="border-0 border-black p-0.5 rounded-full hover:cursor-pointer"
+                >
+                  <p class="bg-[#114842] size-4 rounded-full" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
