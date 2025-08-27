@@ -13,3 +13,13 @@
 .auto-zoom {
   animation: autoZoom 20s ease-in-out infinite alternate;
 }
+
+@keyframes marquee {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  animation: marquee 10s linear infinite;
+}
