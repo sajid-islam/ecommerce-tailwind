@@ -396,7 +396,9 @@
           </div>
         </div>
         <!-- Offer box's -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 px-5 mt-10">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-5 px-5 mt-10 max-w-[90rem] mx-auto"
+        >
           <!-- Box 1 -->
           <div class="relative overflow-hidden">
             <img
@@ -589,6 +591,112 @@
                 <del class="text-muted font-semibold">$70.99</del>
                 <span class="font-semibold">$55.99</span>
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- highest rated product section -->
+      <section
+        class="bg-[url('/images/bg-parallax-2.jpg')] w-full bg-cover bg-fixed bg-center mt-20"
+      >
+        <div
+          class="flex justify-center md:justify-end max-w-[90rem] mx-auto px-5 md:px-10 py-20"
+        >
+          <!-- Product Card -->
+          <div class="bg-white py-5 px-10 space-y-5 shadow-lg">
+            <!-- product image, title & rating -->
+            <div class="flex items-start gap-3">
+              <img
+                src="/images/products/product-9.jpg"
+                alt="product-9-image"
+                class="w-40"
+              />
+              <div>
+                <h4
+                  class="text-xl md:text-3xl font-semibold md:w-72 leading-relaxed"
+                >
+                  Lightweight and waterproof travel backpack
+                </h4>
+                <p class="text-[#e09200] text-sm mt-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </p>
+              </div>
+            </div>
+
+            <!-- Total amount added -->
+            <div class="flex items-center gap-2 text-red-600">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p>9 people just added this product to their cart</p>
+            </div>
+
+            <!-- Color -->
+            <div class="space-y-4">
+              <h5 class="text-xl font-semibold">Color</h5>
+              <div class="flex gap-2">
+                <button
+                  type="button"
+                  class="border-2 border-black p-1 rounded-full hover:cursor-pointer"
+                  aria-label="Select black"
+                >
+                  <span class="block w-8 h-8 bg-[#212529] rounded-full"></span>
+                </button>
+
+                <button
+                  type="button"
+                  class="border-2 border-gray-200 p-1 rounded-full hover:cursor-pointer"
+                  aria-label="Select green"
+                >
+                  <span class="block w-8 h-8 bg-[#42514a] rounded-full"></span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Price -->
+            <div>
+              <p class="text-2xl font-semibold">
+                <span>$49.00</span>
+                <span class="ml-3 text-muted line-through">$59.00</span>
+              </p>
+            </div>
+
+            <!-- Product availability -->
+            <div>
+              <div class="w-full h-2 bg-gray-200">
+                <div class="h-2 bg-gray-800" style="width: 80%"></div>
+              </div>
+
+              <div class="flex justify-between mt-2">
+                <p class="font-semibold">
+                  <span class="text-muted">Available:</span>
+                  57
+                </p>
+                <p class="font-semibold">
+                  <span>Sold:</span>
+                  72
+                </p>
+              </div>
+            </div>
+
+            <!-- Add to cart button -->
+            <div class="flex gap-4">
+              <div
+                class="border-2 px-5 py-2 w-fit flex gap-10 items-center text-xl font-semibold"
+              >
+                <span>-</span>
+                <span>1</span>
+                <span>+</span>
+              </div>
+              <button
+                class="flex-1 text-white font-semibold bg-primary px-8 py-4"
+              >
+                ADD TO CART
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
             </div>
           </div>
         </div>
