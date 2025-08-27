@@ -169,18 +169,34 @@
           class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-10 max-w-[90rem] mx-auto"
         >
           <!-- Product 1 -->
-          <div class="relative">
-            <img
-              src="/images/products/product-1.jpg"
-              alt="best-sellers-product1"
-            />
-            <!-- tag -->
-            <p
-              class="absolute bg-black text-white px-4 py-1 text-sm font-semibold top-0"
-            >
-              <i class="fa-solid fa-bolt text-secondary"></i>
-              FLASH SELL
-            </p>
+          <div>
+            <div class="relative">
+              <img
+                src="/images/products/product-1.jpg"
+                alt="best-sellers-product1"
+              />
+              <!-- tag -->
+              <p
+                class="absolute bg-black text-white px-4 py-1 text-sm font-semibold top-0"
+              >
+                <i class="fa-solid fa-bolt text-secondary"></i>
+                FLASH SELL
+              </p>
+              <!-- Count down -->
+              <div
+                class="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-white shadow-md text-secondary text-2xl font-semibold px-4 py-2 flex whitespace-nowrap"
+              >
+                <p>
+                  <span>00d</span>
+                  :
+                  <span>05h</span>
+                  :
+                  <span>06m</span>
+                  :
+                  <span>59s</span>
+                </p>
+              </div>
+            </div>
 
             <!-- Product  1 description -->
             <div class="mt-5 space-y-4">
@@ -261,7 +277,7 @@
               >
                 Trending
               </p>
-
+              <!-- Product sale offer marquee -->
               <div class="absolute bottom-0 w-full overflow-hidden bg-black">
                 <div class="marquee py-1 text-sm text-white">
                   <div
