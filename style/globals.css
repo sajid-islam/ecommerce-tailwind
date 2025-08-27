@@ -23,3 +23,15 @@
 .marquee {
   animation: marquee 10s linear infinite;
 }
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+.offer-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.offer-marquee:hover {
+  animation-play-state: paused;
+}
